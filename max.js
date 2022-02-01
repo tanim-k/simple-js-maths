@@ -15,7 +15,7 @@ else{
     console.log('ministerperson er amount beshi tarporo halay kom powerful just because of if conditionals')
 }
 
-//இ௰இ: max number between three number: by comparing 3   ::{{{(>_<)}}}
+// இ௰இ :: max number among three numbers: by comparing 3 ::(>_<)
 
 const bussinessman = 500;
 const ministerman = 1000;
