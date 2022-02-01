@@ -16,11 +16,17 @@ console.log('fibonacci seris:', fibo);
 
 // a function for fibonacci seris //
 function fibonacciSeris(num) {
+    if(typeof num != 'number'){
+        return 'enter a valid number';
+    }
+    if(num<2){
+        return 'please enter a number grater than 2';
+    }
     const fibo = [0, 1];   
-    for(i = 2; i <= num; i++){
+    for (let i = 2; i <= num; i++) {
         fibo[i] = fibo[i-1] + fibo[i-2];
     }
     return fibo;
 }
-const fiboSeris = fibonacciSeris(15);
+const fiboSeris = fibonacciSeris(9);
 console.log('fibonacci seris array:', fiboSeris);
