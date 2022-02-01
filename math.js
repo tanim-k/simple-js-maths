@@ -26,4 +26,6 @@
 
 // a random number between 1 to 10:::::::
 const output = Math.random() * 10;
-console.log(output);
+const roundedByRounding = Math.ceil(output)
+const rounded = Math.floor(output);
+console.log(rounded);
