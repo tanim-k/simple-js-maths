@@ -31,8 +31,9 @@
 // const rounded = Math.floor(output);
 // console.log(rounded);
 
-for (i=0; i<=5; i++ ) {
+// to see 20 random number between 1 to 6 use this::::::::
+for (i=0; i<=19; i++ ) {
     const output = Math.random() * 6;
-    const roundedByRound = Math.ceil(output);
+    const roundedByRound = Math.round(output);
     console.log(roundedByRound);
 }
