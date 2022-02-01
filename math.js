@@ -21,5 +21,9 @@
 // const output = Math.round(myNumber);
 // console.log(output);
 
-const output = Math.random();
-console.log(output)
+// const output = Math.random();
+// console.log(output)
+
+// a random number between 1 to 10:::::::
+const output = Math.random() * 10;
+console.log(output);
