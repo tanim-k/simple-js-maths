@@ -43,3 +43,17 @@ else if(ministerman > bussinessman && ministerman > armyman){
 else{
     console.log('armyman is boss karon army man er tk shob theke beshi')
 }
+
+// vs-in-built way to find max:
+num1 = 555;
+num2 = 435;
+num3 = 654;
+num4 = 53;
+num5 = 935;
+num6 = 53;
+var max = Math.max(num1, num2, num3, num4, num5, num6)
+console.log('the largest one is:', max);
+
+// a way to find the min value: peace //
+var min = Math.min(num1, num2, num3, num4, num5, num6)
+console.log('the smallest one is:', min);
