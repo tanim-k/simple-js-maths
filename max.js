@@ -51,9 +51,33 @@ num3 = 654;
 num4 = 53;
 num5 = 935;
 num6 = 53;
-var max = Math.max(num1, num2, num3, num4, num5, num6)
+var max = Math.max(num1, num2, num3, num4, num5, num6);
 console.log('the largest one is:', max);
 
 // a way to find the min value: peace //
-var min = Math.min(num1, num2, num3, num4, num5, num6)
+var min = Math.min(num1, num2, num3, num4, num5, num6);
 console.log('the smallest one is:', min);
+
+// function for  largest value  //
+function findLargest(first, second) {
+    if(first > second) {
+        return first;
+    } 
+    else {
+        return second;
+    }
+}
+const largest = findLargest(567, 786);
+console.log('largest one is:', largest);
+
+// function for min value among all //
+function findSmallest(first, second) {
+    if(first<second) {
+        return first;
+    }
+    else {
+        return second;
+    }
+}
+const smallest = findSmallest(567, 786);
+console.log('smallest one is:', smallest);
