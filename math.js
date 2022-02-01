@@ -25,8 +25,14 @@
 // console.log(output)
 
 // a random number between 1 to 10:::::::
-const output = Math.random() * 10;
-const roundedByCeil = Math.ceil(output);
-console.log(roundedByCeil);
-const rounded = Math.floor(output);
-console.log(rounded);
+// const output = Math.random() * 10;
+// const roundedByCeil = Math.ceil(output);
+// console.log(roundedByCeil);
+// const rounded = Math.floor(output);
+// console.log(rounded);
+
+for (i=0; i<=5; i++ ) {
+    const output = Math.random() * 6;
+    const roundedByRound = Math.ceil(output);
+    console.log(roundedByRound);
+}
