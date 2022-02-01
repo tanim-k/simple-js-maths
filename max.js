@@ -17,6 +17,20 @@ else{
 
 // இ௰இ :: max number among three numbers: by comparing 3 ::(>_<)
 
+// const bussinessman = 500;
+// const ministerman = 1000;
+// const armyman = 1500;
+// if(bussinessman > ministerman && bussinessman > armyman) {
+//     console.log("businessman is boss");
+// }
+// else if(ministerman > bussinessman && ministerman > armyman){
+//     console.log('ministerman is boss');
+// }
+// else if(armyman > ministerman && armyman > bussinessman) {
+//     console.log('armyman is boss karon army man er tk shob theke beshi');
+// }
+
+// using else at the end to find max value //
 const bussinessman = 500;
 const ministerman = 1000;
 const armyman = 1500;
@@ -26,6 +40,6 @@ if(bussinessman > ministerman && bussinessman > armyman) {
 else if(ministerman > bussinessman && ministerman > armyman){
     console.log('ministerman is boss');
 }
-else if(armyman > ministerman && armyman > bussinessman) {
-    console.log('armyman is boss karon army man er tk shob theke beshi');
+else{
+    console.log('armyman is boss karon army man er tk shob theke beshi')
 }
