@@ -13,6 +13,6 @@ function removeDuplicate(names) {
     }
     return unique;
 }
-// no removeDuplicate;icates in the new array /./.
+// no DUPLICATES in the new array /./.
 const uniqueNames = removeDuplicate(names);
 console.log(uniqueNames)
